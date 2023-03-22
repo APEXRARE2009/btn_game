@@ -3,6 +3,9 @@ body {
 	padding: 0;
 	color: white;
 	font-family: 'Comfortaa',arial;
+	-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+	-webkit-tap-highlight-color: transparent;
+	user-select: none;
 }
 
 * {

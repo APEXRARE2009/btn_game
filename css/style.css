@@ -105,6 +105,14 @@ body {
 }
 
 .btn__right-content-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btn__right-content-block div {
+    z-index: 10;
 }
 
 .btn__right-content-text {
